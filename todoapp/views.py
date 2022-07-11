@@ -12,7 +12,7 @@ def mythread():
             message = "May be there is some important work you have added in your ToDo.",
             timeout =10
             )
-        time.sleep(60)
+        time.sleep(60*30)
 
 t=Thread(target=mythread)
 t.start()
